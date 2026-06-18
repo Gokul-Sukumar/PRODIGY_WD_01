@@ -1,9 +1,54 @@
 # PRODIGY_WD_01
 Secure Employee Management System built with Node.js, Express 5, and SQLite3. Features robust admin authentication via bcrypt password hashing and stateful session tracking. Enables secure, centralized CRUD operations on employee records through a protected, responsive dashboard, preventing unauthorized data exposure.
- simple, secure full-stack web application for administrators to manage employee records using Node.js, Express, and SQLite3.  🚀 FeaturesAdmin Authentication: Secure login using bcrypt password hashing.  Session Tracking: Route protection with express-session to block unauthorized access to the dashboard.  Full CRUD Support: Create, Read, Update, and Delete employee profiles.Local Database: Zero-configuration data storage via an SQLite3 file.  🛠️ PrerequisitesNode.js (v18 or higher recommended)  npm💻 Quick StartInstall dependencies:Bashnpm install
 
-2. **Start the server:**
-   ```bash
-   node server.js
-Open the app:
-Navigate to http://localhost:3000 in your browser. 
+# employee-management-system
+
+A secure, minimalist web application built with **Node.js**, **Express**, and **SQLite3** that allows administrators to easily manage employee records.
+
+---
+
+## 🚀 Features
+
+* **Admin Authentication:** Secure login system using hashed passwords with `bcrypt`.
+
+
+* **Session Management:** Restricts unauthorized visitors from accessing protected views like the admin dashboard using `express-session`.
+
+
+* **Full CRUD Operations:** Create, read, update, and delete employee profile records dynamically.
+* **Lightweight Storage:** Uses a self-contained, file-based SQLite database for zero-configuration deployment.
+
+
+
+---
+
+## 🛠️ Project Setup
+
+### 1. Prerequisites
+
+Ensure you have **Node.js** installed on your machine.
+
+### 2. Installation
+
+Clone the repository, open your terminal inside the project directory, and install the required dependencies:
+
+```bash
+npm install
+
+```
+
+### 3. Running the Server
+
+Launch the application backend locally:
+
+```bash
+node server.js
+
+```
+
+Once running, open your web browser and navigate to:
+
+```text
+http://localhost:3000
+
+```
